@@ -1,0 +1,20 @@
+{
+  "name": "bravia-server",
+  "version": "0.0.1",
+  "description": "A simple node.js server for accessing Bravia TV",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "start": "nodemon server.js",
+  "author": "WonTasia",
+  "license": "ISC",
+  "dependencies": {
+    "async": "2.6.0",
+    "express": "^4.16.4",
+    "node-persist": "0.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
